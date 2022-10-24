@@ -13,14 +13,20 @@ Langsung saja pada tutorialnya:
 
 4.  Lalu login ke akun github dan buat repository baru, klik link https://github.com/new 
 
-   
+   ![image](pg/sc6.png)
+
+    ![image](pg/sc7.PNG)
+
+    ![image](pg/sc8.PNG)
+
+    ![image](pg/sc9.PNG)
   
 
  lakukan seperti gambar diatas: Repository name: (Diisi nama repositorya) Desciption: (Diisi deskripsi repositorynya (tidak wajib)) lalu set Public, Private, default Public, lalu klik tombol berwarna hijau Create Repository.
 
 5.  Setelah Create Repository muncul halaman seperti ini:
 
-
+    ![image](pg/sc10.PNG)
 
 ini berfungsi sebagai perintah command line\
 
@@ -32,8 +38,7 @@ caranya klik kanan pada folder project
 
  dan pilih Git Bash Here Image dan muncul command line
 
-
-
+![image](pg/sc3.png)
 
 7.  Ketikkan perintah seperti di step 5:
 
