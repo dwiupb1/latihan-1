@@ -13,7 +13,7 @@ Langsung saja pada tutorialnya:
 
 4.  Lalu login ke akun github dan buat repository baru, klik link https://github.com/new 
 
-   ![image](pg/sc6.png)
+    ![image](pg/sc6.png)
 
     ![image](pg/sc7.PNG)
 
