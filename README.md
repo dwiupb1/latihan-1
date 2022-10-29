@@ -2,45 +2,65 @@
 
 Langsung saja pada tutorialnya:
 
-1.  Buat akun pada https://github.com/
+# LANGKAH-LANGKAH MENGGUNAKAN GITHUB
+• Download Git, buka website resminya Git (git-scm.com).
 
-2.  Setelah selesai, lalu download Git, download disini https://git-scm.com/downloads
+• Kemudian unduh Git sesuai dengan arsitektur komputer kita. Kalau menggunakan 64bit, unduh yang 64bit. Begitu juga kalau menggunakan 32bit.
 
-    ![image](pg/sc1.PNG)
-     
+![sc1](https://user-images.githubusercontent.com/115912116/198843484-0d304e5f-da42-4d44-b4f1-fcee31f36116.PNG)
+• setelah terinstall,Untuk mencobanya, silahkan buka CMD atau PowerShell, kemudian ketik perintah
 
-3.  Instal seperti biasa
+git --version.
 
-4.  Lalu login ke akun github dan buat repository baru, klik link https://github.com/new 
+![sc2](https://user-images.githubusercontent.com/115912116/198843627-6279cbf6-4cee-4f44-bedb-8dc620d1dab8.PNG)
 
-    ![image](pg/sc6.png)
+# MENAMBAHKAN GLOBAL CONFIG
 
-    ![image](pg/sc7.PNG)
+• Pada saat pertama kali menggunakan git, perlu dilakukan konfigurasi user.name dan user.email
 
-    ![image](pg/sc8.PNG)
+• konfigurasi ini bisa dilakukan untuk global repository atau individual repository.
 
-    ![image](pg/sc9.PNG)
-  
+apabila belum dilakukan konfigurasi, akan mengakibatkan terjadi kegagalan saat menjalankan perintah git commit
 
- lakukan seperti gambar diatas: Repository name: (Diisi nama repositorya) Desciption: (Diisi deskripsi repositorynya (tidak wajib)) lalu set Public, Private, default Public, lalu klik tombol berwarna hijau Create Repository.
+# CONFIG GLOBAL Repository
 
-5.  Setelah Create Repository muncul halaman seperti ini:
+$ git config --global user.name “nama_user”
 
-    ![image](pg/sc10.PNG)
-
-ini berfungsi sebagai perintah command line\
-
-6.  Setelah itu buka project yang akan dimasukkan ke Github,
+$ git config --global user.email “nama_user”
 
 
+# Membuat Reposiory Local
 
-caranya klik kanan pada folder project 
 
- dan pilih Git Bash Here Image dan muncul command line
+• Buka direktory aktif, misal: /d/Latihan VCS
 
-![image](pg/sc3.png)
+• klik kanan pada direktory aktif tersebut, dan pilih menu Git Bash here
 
-7.  Ketikkan perintah seperti di step 5:
+• Buat direktory project praktikum pertama dengan nama Latihan_1
+
+• Sehingga terbentuk satu direktori baru dibawahnya, selanjutnya masuk kedalam direktori tersebut dengan perintah cd (change directory)
+
+• direktory aktif menjadi: /d/Latihan VCS/Latihan_1
+
+![sc3](https://user-images.githubusercontent.com/115912116/198843929-e98fc484-39d4-45d6-952f-69002a21fd38.png)
+
+
+
+# Membuat Repository github
+
+![sc6](https://user-images.githubusercontent.com/115912116/198844044-00a059ac-1538-450f-a7e7-d37b5b332652.png)
+
+# Menambahkan File baru pada repository
+
+• Jalankan git status, lalu jalan perintah git add .
+
+• Jalankan perintah git commit -m "Update Tugas"
+
+• git remote add origin https://github.com/dwiupb1/latihan-1.git
+
+• git push -u origin master/main
+
+ # Ketikkan perintah seperti di step
 
     echo "# Repository-Baru" >> README.md
     git init
@@ -49,18 +69,24 @@ caranya klik kanan pada folder project
     git remote add origin https://github.com/brianetlab/Repository-Baru.git
     git push -u origin master
 
- Penjelasan:
-    git add = untuk memiliih file yang akan dimasukan ke github (kalau pilih semua: “ git add . “ )
-    git commit = untuk memberi commit/pesan git remote = alamat untuk memasukan ke github
-    git push = untuk ngepush semuanya ke github klik enter dan lihat project kamu sudah terupload ke Github
+ . Penjelasannya :
 
-8.  Selamat Project kamu sudah masuk ke Github! Image
-
-            Selesai sekarang
-
-                
+    > git add = untuk memiliih file yang akan dimasukan ke github (kalau pilih semua: “ git add . “ )
+    > git commit = untuk memberi commit/pesan git remote = alamat untuk memasukan ke github
+    > git push = untuk ngepush semuanya ke github klik enter dan lihat project kamu sudah terupload ke Github
 
 
+![sc5](https://user-images.githubusercontent.com/115912116/198844117-8f58ba5c-716e-4d3b-b543-60047ebcb2b5.PNG)
+
+• Maka Hasilnya akan seperti ini
+
+![image_2022-10-30_001003743](https://user-images.githubusercontent.com/115912116/198844308-69cebf40-6b3a-4bd4-bc2c-15249293ecb7.png)
+
+> Selamat projek kamu sudah masuk ke Github! 
+
+Setelah selesai tinggal upload link ke e-campus atau tugas yang akan dikirim.
+
+# SEKIAN DAN TERIMA KASIH #
 
 
 
